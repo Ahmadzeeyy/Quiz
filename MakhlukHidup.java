@@ -2,13 +2,13 @@ public class MakhlukHidup {
     String nama ;
     
     void bernapas(String objek, String napas){ 
-        System.out.println(objek+" hidup bisa bernapas meggunakan"+napas);
+        System.out.println(objek+" hidup bisa bernapas meggunakan "+napas);
     }
     void melihat(String objek){ 
         System.out.println(objek+" hidup bisa melihat");
     }
     void berkembangbiak(String objek){
-        System.out.println(objek+"makhluk hidup bisa berkembang biak");
+        System.out.println(objek+" makhluk hidup bisa berkembang biak");
     }
 }
 class harimau extends MakhlukHidup {
@@ -55,20 +55,40 @@ class ular extends MakhlukHidup {
        harimau Harimau = new harimau();
        hiu hiu = new hiu();
        ular ular = new ular();
+       System.out.println("+===========================================+");
+       System.out.println("|                MAKHLUK HIDUP              |");
+       System.out.println("+===========================================+");
+       System.out.println(" ");
+       System.out.println(" ");
+       System.out.println("+===========================================+");
+       System.out.println("|                   HARIMAU                 |");
+       System.out.println("+===========================================+");
+       System.out.println(" ");
+       System.out.println(" ");
        Harimau.bernapas("harimau", "paru-paru");
        Harimau.melihat("harimau");
        Harimau.berkembangbiak("harimau");
        Harimau.makanan();
        Harimau.bersuara();
        Harimau.kembangbiak();
-
+       System.out.println(" ");
+       System.out.println(" ");
+       System.out.println("+===========================================+");
+       System.out.println("|                     HIU                   |");
+       System.out.println("+===========================================+");
+       System.out.println(" ");
+       System.out.println(" ");
        hiu.bernapas("hiu", "insang");
-       Harimau.melihat("hiu");
-       Harimau.berkembangbiak("hiu");
+       hiu.melihat("hiu");
+       hiu.berkembangbiak("hiu");
        hiu.makanan();
        hiu.hidup();
-       Harimau.kembangbiak();
-
+       hiu.kembangbiak();
+       System.out.println(" ");
+       System.out.println(" ");
+       System.out.println("+===========================================+");
+       System.out.println("|                     ULAR                  |");
+       System.out.println("+===========================================+");
        ular.bernapas("ular", "paru-paru");
        ular.melihat("ular");
        ular.berkembangbiak("ular");
